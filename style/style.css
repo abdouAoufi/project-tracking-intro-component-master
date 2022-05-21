@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.link-container {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    color: rgb(15, 15, 87);
+}
+
+.login {
+    color: #c4c4c4;
+}
+
+.link-container a {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
