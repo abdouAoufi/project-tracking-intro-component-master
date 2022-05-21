@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;500;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
 }
 
 nav {
@@ -25,4 +30,74 @@ nav {
     font-size: 1.25rem;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.info {
+    padding-left: 6rem;
+    flex: 1;
+}
+
+#subtitle {
+    color: #c4c4c4;
+    letter-spacing: 3px;
+}
+
+#subtitle span {
+    background-color: rgb(17, 17, 87);
+    color: white;
+    padding: 0.25rem 0.35rem;
+    border-radius: 1rem;
+    letter-spacing: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#description {
+    color: #c5c5c5;
+    margin-top: 2rem;
+}
+
+#button-container {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+#button-container button {
+    background-color: orangered;
+    border: 0;
+    padding: 1rem 1.5rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-weight: bold;
+}
+
+#button-container p {
+    color: #c4c4c4;
+}
+
+#img-container {
+    flex: 1;
+    width: 50%;
+}
+
+#bg {
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 3rem;
+    background-color: hsl(207, 33%, 95%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
